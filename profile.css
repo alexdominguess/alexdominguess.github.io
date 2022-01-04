@@ -212,7 +212,7 @@
                 padding-top: 0px;
             }
             nav {
-                height: 30px;
+                height: 0px;
             }
             nav h1 {
                 font-size: 0px;
@@ -231,18 +231,18 @@
                 color: rgb(85, 85, 85);
             }
             .card-pic {
-                height: 600px;
-                width: 600px;
+                height: 500px;
+                width: 500px;
             }
             .card-pic img {
-                width: 600px;
-                height: 400px;
+                width: 500px;
+                height: 500px;
                 filter: grayscale(100%);
             }
             .card-info {
                 background-color: rgb(240, 240, 240);
                 height: 400px;
-                width: 600px;
+                width: 500px;
                 padding: 3rem;
                 display: flex;
                 flex-direction: column;
@@ -250,7 +250,7 @@
                 align-items: center;
             }
             .social-mideas {
-                width: 600px;
+                width: 500px;
                 padding-right: 2rem;
                 padding-left: 2rem;
             }
@@ -258,15 +258,15 @@
                 width: 600px;
             }
             .exp-year {
-                width: 300px;
+                width: 350px;
                 padding-left: 50px;
             }
             .exp-comp {
-                width: 300px;
+                width: 350px;
                 padding-right: 0;
             }
             .hab {
-                font-size: 20px;
+                font-size: 17px;
                 width: 400px;
             }
         }
