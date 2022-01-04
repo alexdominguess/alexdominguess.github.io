@@ -207,7 +207,7 @@
             color: rgb(99, 96, 96);
         }
         
-        @media screen and (min-width:300px) and (max-width:1150px) {
+        @media screen and (max-width:1150px) {
             body {
                 padding-top: 0px;
             }
