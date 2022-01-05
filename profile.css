@@ -234,11 +234,17 @@
             .social-mideas {
                 width: 70%;
             }
+            .introduction-text {
+                width: 90%;
+            }
+            .expiriences {
+                width: 100%;
+            }
             .habilidades {
                 flex-direction: column;
-                width: 80%;
+                width: 95%;
             }
             .hab {
-                width: 80%;
+                width: 95%;
             }
         }
