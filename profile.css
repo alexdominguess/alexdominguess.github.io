@@ -212,6 +212,9 @@
         }
         
         @media screen and (max-width:1050px) {
+            body {
+                padding-top: 30px;
+            }
             nav {
                 height: 70px;
                 justify-content: center;
