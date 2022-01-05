@@ -189,6 +189,8 @@
         
         .habilidades {
             display: flex;
+            justify-content: center;
+            align-items: center;
         }
         
         .hab {
@@ -232,7 +234,11 @@
             .social-mideas {
                 width: 70%;
             }
-                .habilidades {
+            .habilidades {
                 flex-direction: column;
+                width: 80%;
+            }
+            .hab {
+                width: 80%;
             }
         }
