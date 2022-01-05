@@ -218,6 +218,10 @@
             nav h1 {
                 font-size: 0px;
             }
+            .menu-options div {
+                padding-right: 15px;
+                font-size: small;
+            }
             .profile-card {
                 height: auto;
                 flex-direction: column;
