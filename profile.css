@@ -232,4 +232,7 @@
             .social-mideas {
                 width: 70%;
             }
+                .habilidades {
+                flex-direction: column;
+            }
         }
