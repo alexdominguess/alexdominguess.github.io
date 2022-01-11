@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style/guess_game.css">
+    <title>Guess Game</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <h1>Guess Game</h1>
+            </div>
+            <div>
+                <a href="#">Home</a>
+                <a href="#">Portifólio</a>
+                <a href="#" onclick="showModal()">Sobre</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="question-mark">
+        <div class="question_mark_container">
+            <div class="horizontal_line"></div>
+            <div class="question_mark">
+                <p>?</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="game">
+        <div class="main">
+            <div class="level">
+                <div class="level-info">
+                    <div class="level-title">
+                        <h3>Level</h3>
+                    </div>
+                    <div class="levels">
+                        <div>
+                            <input type="radio" id="lvl-1" name="level" onclick="defineLevel('I am a baby')" value="I am a baby" checked=true>
+                            <label for="lvl1">I am a baby</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="lvl-2" name="level" onclick="defineLevel('Super Guesser')" value="Super Guesser">
+                            <label for="lvl2">Super Guesser</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="lvl-3" name="level" onclick="defineLevel('Paranormal')" value="Paranormal">
+                            <label for="lvl2">Paranormal</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-container">
+                <form action="" name="form" class="form-name">
+                    <label for="input-name">Your Name</label>
+                    <input id="input-name" name="name" type="text">
+                    <p class="msg">Press Start</p>
+                    <p class="label-number">...</p>
+                    <input id="input-num" type="number" ng-bind="first" disabled style="background-color: rgb(37, 37, 37); border: none;">
+                    <input class="btn" type="button" onclick="mainFunction()" value="Start">
+                </form>
+            </div>
+
+            <div class="info">
+                <div class="info-cont">
+                    <p class="points">Points: 0</p>
+                    <p class="score">Your score: 0</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <footer>
+            <p>© 2022 por Alex Domingues da Silva.</p>
+        </footer>
+    </section>
+</body>
+
+
+<div class="modal">
+    <div class="modal-content">
+        <div class="close-modal">
+            <p onclick="closeModal()">x</p>
+        </div>
+        <div class="modal-text">
+            <p>Esse é pequeno projeto que fiz enquanto estava aprendendo JavaScript.</p><br>
+            <p>Como é um game bem simples, eu desenvolvi com esse estilo retrô, numa pegada meio Atari, famoso game dos anos 80!</p><br>
+            <p>Divita-se!!!</p>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="/static/js/guessGame.js"></script>
+
+</html>
