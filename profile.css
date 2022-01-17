@@ -232,12 +232,12 @@
                 align-items: center;
             }
             .card-pic {
-                height: 70%;
-                width: 70%;
+                height: 80%;
+                width: 80%;
             }
             .card-info {
-                height: 70%;
-                width: 70%;
+                height: 80%;
+                width: 80%;
             }
             .card-info h1 {
                 font-size: 20px;
