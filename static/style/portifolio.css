@@ -147,3 +147,12 @@ footer {
     color: rgb(99, 96, 96);
     width: 100%;
 }
+
+@media screen and (max-width:700px) {
+    .grid-container {
+        display: block;
+    }
+    nav h1 {
+        font-size: 1rem;
+    }
+}

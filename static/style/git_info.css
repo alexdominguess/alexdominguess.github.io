@@ -155,4 +155,7 @@ footer {
         align-items: center;
         width: 90%;
     }
+    body {
+        height: 100%;
+    }
 }
