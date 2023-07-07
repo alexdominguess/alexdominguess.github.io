@@ -10,4 +10,4 @@ setTimeout(function() {
     for (i = 0; i < animatadeFields.length; i++) {
         animatadeFields[i].classList.add('hidden')
     }
-}, 2500)
+}, 500)
